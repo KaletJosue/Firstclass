@@ -26,3 +26,11 @@ var login = document.getElementById("login")
 login.addEventListener('click', () => {
     location.href = "../firstclass/views/login.html"
 })
+
+const label = document.querySelector('.theme-switch__checkbox')
+let body = document.body
+const cloud = document.getElementById('cloud')
+
+label.addEventListener('click', () => {
+    body.classList.toggle('dark-mode')
+})

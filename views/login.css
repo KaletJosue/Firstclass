@@ -137,3 +137,18 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+@media (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container img {
+        height: 200px;
+    }
+
+    .container section input {
+        width: 100%;
+    }
+}
